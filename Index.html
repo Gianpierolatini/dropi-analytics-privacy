@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Política de Privacidad - Dropi Analytics</title>
+<style>
+  body{font-family:Arial,sans-serif;max-width:800px;margin:40px auto;padding:0 20px;color:#333;line-height:1.6}
+  h1{color:#6c3fc5}h2{color:#444;margin-top:30px}
+</style>
+</head>
+<body>
+<h1>Política de Privacidad - Dropi Analytics</h1>
+<p><strong>Última actualización:</strong> 30 de junio de 2026</p>
+
+<h2>1. Información que recopilamos</h2>
+<p>Dropi Analytics <strong>no recopila ni almacena datos personales</strong> de los usuarios. La extensión únicamente:</p>
+<ul>
+<li>Lee el token de autenticación JWT desde el localStorage de app.dropi.cl (solo en el navegador local del usuario)</li>
+<li>Guarda dicho token en el almacenamiento local de Chrome (chrome.storage.local) para evitar inicios de sesión repetidos</li>
+</ul>
+
+<h2>2. Uso de datos</h2>
+<p>Los datos obtenidos se usan exclusivamente para:</p>
+<ul>
+<li>Consultar el catálogo de productos de la API oficial de Dropi (api.dropi.cl)</li>
+<li>Mostrar información de productos, márgenes y órdenes dentro del popup de la extensión</li>
+</ul>
+<p>No se transmite ningún dato a servidores de terceros ni al desarrollador de la extensión.</p>
+
+<h2>3. Datos que NO recopilamos</h2>
+<p>Esta extensión NO recopila: información de identificación personal, historial de navegación, datos financieros, comunicaciones personales, ubicación ni ningún otro dato sensible.</p>
+
+<h2>4. Almacenamiento local</h2>
+<p>El token JWT se almacena localmente en el dispositivo del usuario mediante chrome.storage.local. Este dato nunca sale del dispositivo y puede eliminarse desinstalando la extensión.</p>
+
+<h2>5. Permisos utilizados</h2>
+<ul>
+<li><strong>storage:</strong> Para guardar el token de sesión localmente</li>
+<li><strong>activeTab:</strong> Para leer el token desde la página de Dropi</li>
+<li><strong>scripting:</strong> Para inyectar el script que obtiene el token de autenticación</li>
+<li><strong>api.dropi.cl:</strong> Para consultar el catálogo de productos</li>
+<li><strong>app.dropi.cl:</strong> Para obtener el token del usuario autenticado</li>
+</ul>
+
+<h2>6. Contacto</h2>
+<p>Para consultas sobre privacidad: <a href="mailto:gp.latinip@gmail.com">gp.latinip@gmail.com</a></p>
+</body>
+</html>
